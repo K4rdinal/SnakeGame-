@@ -126,19 +126,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\SnakeGame\Board.h" />
-    <ClInclude Include="..\..\SnakeGame\Meteor.h" />
-    <ClInclude Include="..\..\SnakeGame\Object.h" />
-    <ClInclude Include="..\..\SnakeGame\Player.h" />
-    <ClInclude Include="..\..\SnakeGame\Tail.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\SnakeGame\Player.h.gch" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\SnakeGame\snake.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
